@@ -20,7 +20,7 @@ void main() {
   print("Digite seu nome");
 
   //criando a variavel para receber o input todas as variaveis tem que ser tipadas
-  //stdin.readLineSync() lê a linha e armazena (é o input do dart) o ? ao lado do string é para não deixar o nome
+  //stdin.readLineSync() lê a linha e armazena (é o input do dart) o ? ao lado do string é para que seja opcional
   String? nome = stdin.readLineSync();
 
   //o cifrão busca o valor da variavel para printala
@@ -28,7 +28,9 @@ void main() {
 
   if (nome == "junin") {
     print("você é o cara , parabéns campeão");
+  } else if (nome == "marquinhos") {
+    print("meu primo");
   } else {
-    print("você não é o campeão"); 
+    print("você não é o campeão");
   }
 }
