@@ -8,5 +8,11 @@ void main() {
   String? entrada = stdin.readLineSync();
 
   //cria a variavel que converte a idade em numero o "!" serve para que consiga converter pois diz que tem valor
-  int idade = int.parse(entrada!); 
+  int idade = int.parse(entrada!);
+
+  if (idade >= 18) {
+    print("pode dirigir");
+  } else {
+    print("você NÃO PODE DIRIGIR"); 
+  }
 }
