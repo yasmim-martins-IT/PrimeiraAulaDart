@@ -12,4 +12,14 @@ void main() {
 
     number++;
   }
+
+  print('Digite sua senha: ');
+  String? senha = stdin.readLineSync();
+
+  while (senha != "123") {
+    print("Senha incorreta ");
+    senha = stdin.readLineSync();
+  }
+
+  print("socorro");
 }
