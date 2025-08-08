@@ -14,9 +14,9 @@ void main() {
 
     salario += int.parse(entrada!);
 
-    if (int.parse(entrada!) < 0) {
+    if (int.parse(entrada) < 0) {
       print("salario invalido insira o correto");
-      salario += int.parse(entrada!);
+      salario += int.parse(entrada);
       i -= 1;
     }
   }
