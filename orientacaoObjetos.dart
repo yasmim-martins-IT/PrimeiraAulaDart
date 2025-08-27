@@ -12,7 +12,7 @@ class Humano {
   double peso = 0.0;
   String etnia = '';
 
-  //metodo construtor
+  //metodo construtor que facilita a criação das instancias
   Humano(
     this.nome,
     this.idade,
@@ -21,7 +21,11 @@ class Humano {
     this.etnia,
     this.peso,
   );
+
+
 }
+
+
 
 void main() {
   //criando instancias da classe humano
